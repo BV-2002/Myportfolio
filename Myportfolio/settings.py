@@ -16,7 +16,12 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-CSRF_TRUSTED_ORIGINS = ["https://web-production-00cb.up.railway.app/"]
+# settings.py
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-00cb.up.railway.app',
+]
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -27,7 +32,8 @@ SECRET_KEY = 'django-insecure-s2jagpbeb8su%x1kjv@j)os=&k2^s$vcmq3s7zk!=g_hcg9)_h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['web-production-00cb.up.railway.app']
+
 
 
 # Application definition
